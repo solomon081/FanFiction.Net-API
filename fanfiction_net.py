@@ -17,6 +17,7 @@ _CAT_TITLE_REGEX = r"var\s+cat_title\s*=\s*'(.+)';"
 _DATEP_REGEX = r"var\s+datep\s*=\s*'(.+)';"
 _DATEU_REGEX = r"var\s+dateu\s*=\s*'(.+)';"
 _AUTHOR_REGEX = r"var\s+author\s*=\s*'(.+)';"
+# I don't think it's a great idea to name variables in allcaps...
 
 # Useful for generating a review URL later on
 _STORYTEXTID_REGEX = r"var\s+review_url\s*=\s*'.*storytextid=(\d+)';"
